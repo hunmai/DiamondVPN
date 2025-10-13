@@ -104,13 +104,13 @@
         .apk-name {
             font-size: 22px;
             margin-bottom: 15px;
-            color: #1256B0;
+            color: #1a73e8;
         }
         
         .download-btn {
             display: inline-flex;
             align-items: center;
-            background-color: #333300;
+            background-color: #1a73e8;
             color: white;
             padding: 12px 25px;
             border-radius: 5px;
@@ -120,7 +120,7 @@
         }
         
         .download-btn:hover {
-            background-color: #1256B0;
+            background-color: #0d5bb9;
         }
         
         .download-btn img {
@@ -215,16 +215,49 @@
 </head>
 <body>
     <div class="container">
+        <header>
+            <button class="menu-toggle" id="menuToggle">
+                <i class="fas fa-bars"></i>
+            </button>
+            <div class="logo">
+                <img src="https://my-app-icon.netlify.app/vpn-icon.png" alt="J&K Brothers">
+            </div>
+            <p class="subtitle">Free VPN For Thailand</p>
+            
+            <!-- Dropdown Menu -->
+            <div class="dropdown-menu" id="dropdownMenu">
+            	<a href="https://user-online.netlify.app" class="menu-item">
+                    <i class="fas fa-users"></i>
+                    <span>Online Users List</span>
+                </a>
+            
+            	<a href="https://all-app-link.netlify.app/package.html" class="menu-item">
+                    <i class="fas fa-sim-card"></i>
+                    <span>SIM & PACKAGE</span>
+                </a>
+                <a href="https://all-app-link.netlify.app/about" class="menu-item">
+                    <i class="fas fa-info-circle"></i>
+                    <span>About VPN</span>
+                </a>
+                <a href="https://all-app-link.netlify.app/HowToUse" class="menu-item">
+                    <i class="fas fa-question-circle"></i>
+                    <span>How to use</span>
+                </a>
+            </div>
+        </header>
+        
         <section class="apk-section">
             <div class="apk-card">
                 <div class="apk-logo">
-                    <img src="https://my-app-icon.netlify.app/diamond_icon.png" alt="Diamond VPN">
+                    <img src="https://my-app-icon.netlify.app/diamond_icon.png" alt="Daimond VPN">
                 </div>
-                <h2 class="apk-name">Diamond VPN</h2>
-                <a href="https://play.google.com/store/apps/details?id=com.diamondvpn.net" class="download-btn">
+                <h2 class="apk-name">Daimond VPN</h2>
+                <a href="https://play.google.com/store/apps/details?id=com.diamondvpnth.net" class="download-btn">
                     <img src="https://my-app-icon.netlify.app/googleplay.png" alt="Play Store"> Download on PlayStore
                 </a>
             </div>
+            
+        
         <footer>
             <p>© 2023 - Free VPN for Thailand. All rights reserved.</p>
         </footer>
